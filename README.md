@@ -4,6 +4,7 @@
 This Cloudflare Worker generates an intelligent business report using AI-powered insights based on your current and target business metrics.
 
 ## API Endpoint Usage
+https://business-report-worker.adriane-loquinte.workers.dev
 
 ### Request Payload
 Send a POST request with the following JSON structure:
