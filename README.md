@@ -1,18 +1,24 @@
-# Business Report AI Generator
-
-## Overview
-This Cloudflare Worker generates an intelligent business report using AI-powered insights based on your current and target business metrics.
-
 ## API Endpoint Usage
 https://business-report-worker.adriane-loquinte.workers.dev
 
-### Request Payload
+### Comprehensive Business Analysis Endpoint
+
+#### Endpoint
+`POST /business-analysis`
+
+#### Request Payload
 Send a POST request with the following JSON structure:
 
 ```json
 {
+  "businessName": "Example Tech Solutions",
+  "industry": "Technology",
+  "businessScale": "Small",
+  "location": "San Francisco, CA",
   "currentAnnualRevenue": 500000,
   "targetAnnualRevenue": 750000,
   "currentProfitMargin": 0.15,
-  "targetProfitMarginImprovement": 0.20
+  "targetProfitMargin": 0.20,
+  "businessGoals": "Expand market share and develop new product lines",
+  "keyChallenges": "Limited marketing budget and intense competition"
 }
